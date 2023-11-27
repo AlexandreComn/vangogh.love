@@ -24,23 +24,24 @@ body{
     min-height: 100vh;
 }
 
-header {
-    background-image: url('imagens/noiteestrelada.jpg');
-    background-size: cover; 
-    background-position: center; 
-    height: 200px;
-    border-bottom: 6px black solid;
-}
+header img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
 
 
 header > h1 {
-    font-size: 20px;
+    font-size: 10vh;
     text-align: center;
     color: red;
     line-height: 200px;
     background-color: var(--color003);
     font-family: var(--font001);
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     color: var(--color002);
 }
 
