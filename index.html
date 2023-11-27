@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VanGogh.Love</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <header>
+        <h1>VanGogh.&#x2764;</h1>
+    </header>
+
+    <main>
+
+        <h2 class="toggleText">Para qual finalidade esse site foi criado?</h2>
+        <p class="hidden-text">A página VanGogh.Love foi criada em dedicação à Vincent van Gogh, aqui é onde será colocado imagens, pinturas, poemas, e muitas outras coisas, que em alguma parte estarão relacionados a ele. Ao explorar VanGogh.Love, você será envolvido por uma parte visual que captura a intensidade emocional e a genialidade única de Van Gogh. Cada parte desse site é uma janela para seu mundo vibrante, suas pinceladas expressivas e suas composições cativantes.</p>
+
+        <h2 class="toggleText">Quem criou o site?</h2>
+        <p class="hidden-text">Eu, Alexandre Zampronne Zaccaron Rocha, criei esse site com intuito de trazer informações, poemas, imagens, e entre outras coisas, que são relacionadas a esse grande pintor neerlandês.</p>
+
+    </main>
+
+
+    <script>
+        const toggleElements = document.querySelectorAll('.toggleText');
+        const hiddenElements = document.querySelectorAll('.hidden-text');
+
+        toggleElements.forEach((toggleElement, index) => {
+            toggleElement.addEventListener('click', function() {
+                toggleElement.classList.toggle('show-text');
+                hiddenElements[index].classList.toggle('show-text');
+            });
+        });
+    </script>
+
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>
