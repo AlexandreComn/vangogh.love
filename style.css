@@ -24,15 +24,22 @@ body{
     background-color: var(--color001);
     min-height: 100vh;
 }
+  
+
+  .header-content {
+    position: relative;
+    z-index: 1; 
+  }
 
 
 header {
-    background-image: url('imagens/noiteestrelada.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem de fundo */
+    background-image: url('imagens/noiteestrelada.jpg'); 
     background-size: cover;
     background-position: center;
     color: var(--color002);
     text-align: center;
-    padding: 50px 0; /* Ajuste conforme necessário */
+    padding: 50px 0;
+    border-bottom:3px solid black ;
 }
 
 header h1 {
@@ -58,9 +65,9 @@ main > h2::after {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--color003); /* Cor sobreposta à imagem de fundo */
-    border-radius: 10px 10px 0px 0px; /* Ajuste conforme necessário para coincidir com o estilo do h2 */
-    z-index: -1; /* Coloca o elemento ::after atrás do conteúdo do h2 */
+    background-color: var(--color003); 
+    border-radius: 10px 10px 0px 0px;
+    z-index: -1;
 }
 
 main > h2:hover::after {
@@ -124,3 +131,6 @@ main > p{
 .arrow-up.show-text {
     transform: rotate(180deg);
 }
+
+/*menu*/
+
