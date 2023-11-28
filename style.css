@@ -24,25 +24,21 @@ body{
     min-height: 100vh;
 }
 
-header img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-  
 
-
-header > h1 {
-    font-size: 10vh;
-    text-align: center;
-    color: red;
-    line-height: 200px;
-    background-color: var(--color003);
-    font-family: var(--font001);
-    letter-spacing: 4px;
+header {
+    background-image: url('imagens/noiteestrelada.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
     color: var(--color002);
+    text-align: center;
+    padding: 50px 0; /* Ajuste conforme necessário */
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    font-family: var(--font001);
+    letter-spacing: 0.1em;
 }
 
 
